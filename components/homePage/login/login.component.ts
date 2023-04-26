@@ -8,7 +8,8 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  loginFormControl = new FormControl('', [Validators.required, Validators.email]);
+  loginFormControl = new FormControl('', [Validators.required]);
+  passwordFormControl = new FormControl('', [Validators.required, Validators.minLength(3)])
 
 
   
