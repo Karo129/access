@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu p {
+    margin-top: 10em;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.example-button-row {
+    display: table-cell;
+    max-width: 600px;
+    
+  }
+
+button {
+    margin: 0.8em 0.8em;
+  }
