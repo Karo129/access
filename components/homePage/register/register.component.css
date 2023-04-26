@@ -1,0 +1,36 @@
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    margin-top: 8em; 
+   }
+   
+   .login-section h3 {
+       font-size: 1.6em;
+       font-weight: bold;
+   }
+   
+   .form-group {
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .form-group input {
+       padding: 1em;
+       width: 14.5em;
+   }
+   
+   button {
+   width: 7em;
+   margin-left: 0.5em;
+   margin-top: 1em;
+   }
+   
+   .create-account {
+       font-size: 1.5em;
+       margin-top: 1em;
+       text-align: center;
+       text-decoration: underline;
+   }
