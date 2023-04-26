@@ -34,3 +34,7 @@
        text-align: center;
        text-decoration: underline;
    }
+
+   mat-form-field input {
+    background-color: rgb(244, 226, 228);
+}

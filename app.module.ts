@@ -12,6 +12,10 @@ import { ChallengeComponent } from './components/homePage/challenge/challenge.co
 
 import { AngularMaterialModule } from './modules/angular-material/angular-material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { QuestionsComponent } from './components/dashboard/questions/questions.component';
+import { NavbarComponent } from './components/dashboard/navbar/navbar.component';
+import { ChangePasswordComponent } from './components/dashboard/change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomePageComponent,
     LoginComponent,
     RegisterComponent,
-    ChallengeComponent
+    ChallengeComponent,
+    DashboardComponent,
+    QuestionsComponent,
+    NavbarComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,
